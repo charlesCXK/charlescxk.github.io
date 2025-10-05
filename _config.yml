@@ -33,7 +33,9 @@ plugins:
 #   - vendor/ruby/
 
 # timezone: Asia/Shanghai
-
+include:
+  - "_publications" # 告诉 Jekyll，把 _publications 文件夹也复制到最终网站
+  
 collections:
   - publications
   - news

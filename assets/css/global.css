@@ -90,3 +90,25 @@ div.lazy {
     font-family: Courier, monospace;
 }
 
+/* --- 用于控制 publication abstract 下拉列表样式的代码 --- */
+
+/* 重置 <details> 容器本身的字体大小 */
+.pub-abstract {
+  font-size: 1rem; /* 或者你网站正文的默认字体大小，例如 16px */
+  line-height: 1.5; /* 设置合适的行高 */
+  margin-top: 10px; /* 和原来的摘要内容保持一点间距 */
+}
+
+/* 单独设置 <summary> (可点击的 "Abstract" 标题) 的样式 */
+.pub-abstract summary {
+  font-size: 0.8rem; /* 确保标题字体大小也正确 */
+  font-weight: light; /* 让标题粗一点，更醒目 */
+  cursor: pointer;   /* 鼠标悬停时显示为手形指针，提示用户可以点击 */
+}
+
+/* 设置具体摘要内容的样式 */
+.abstract-content {
+  font-size: 0.8rem; /* 可以让摘要内容比标题小一点 */
+  margin-top: 5px;  /* 让内容和 "Abstract" 标题之间有一点空隙 */
+  color: #555;      /* 可以设置一个比正文稍浅的颜色 */
+}
