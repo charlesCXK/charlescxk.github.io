@@ -18,7 +18,7 @@ abstract: >-
 
 cover: /_publications/2023/VisionLLM.png
 authors:
-  - Wenhai Wang*, 
+  - Wenhai Wang*
   - Zhe Chen*
   - Xiaokang Chen*
   - Jiannan Wu*
